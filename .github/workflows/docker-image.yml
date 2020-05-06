@@ -8,7 +8,7 @@ jobs:
     - name: Publish to Registry
       uses: docker/build-push-action@v1
       with:
-        username: ${GITHUB_ACTOR}
+        username: $GITHUB_ACTOR
         password: ${{ secrets.GITHUB_TOKEN }}
         repository: gradeup/mjml-api
         registry: docker.pkg.github.com
