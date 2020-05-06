@@ -10,7 +10,7 @@ jobs:
       with:
         username: $GITHUB_ACTOR
         password: ${{ secrets.GITHUB_TOKEN }}
-        repository: gradeup/mjml-api
+        repository: gradeup/mjml-api/mjml
         registry: docker.pkg.github.com
         tag_with_ref: true
         push: ${{ startsWith(github.ref, 'refs/tags/') }}
