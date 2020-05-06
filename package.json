@@ -1,0 +1,36 @@
+{
+  "name": "mjml-api",
+  "version": "4.0.0",
+  "description": "Rest API Wrapper for mjml ",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "format": "prettier --write *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/gradeup/mjml-api.git"
+  },
+  "keywords": [
+    "mjml",
+    "email",
+    "api"
+  ],
+  "author": "Nikhil Srivastava <niksrc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gradeup/mjml-api/issues"
+  },
+  "homepage": "https://github.com/gradeup/mjml-api#readme",
+  "dependencies": {
+    "aggregate-error": "^3.0.1",
+    "micro": "^9.3.4",
+    "mjml": "^4.6.3"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "prettier": "2.0.5"
+  }
+}
